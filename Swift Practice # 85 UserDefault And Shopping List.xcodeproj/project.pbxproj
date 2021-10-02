@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		2DB06AEE27073978000EB187 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB06AED27073978000EB187 /* AppDelegate.swift */; };
 		2DB06AF027073978000EB187 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB06AEF27073978000EB187 /* SceneDelegate.swift */; };
-		2DB06AF227073978000EB187 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB06AF127073978000EB187 /* ViewController.swift */; };
 		2DB06AF527073978000EB187 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DB06AF327073978000EB187 /* Main.storyboard */; };
 		2DB06AF727073978000EB187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DB06AF627073978000EB187 /* Assets.xcassets */; };
 		2DB06AFA27073978000EB187 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DB06AF827073978000EB187 /* LaunchScreen.storyboard */; };
+		2DB06B02270739C8000EB187 /* ShoppingListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB06B01270739C8000EB187 /* ShoppingListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2DB06AEA27073978000EB187 /* Swift Practice # 85 UserDefault And Shopping List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Practice # 85 UserDefault And Shopping List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DB06AED27073978000EB187 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DB06AEF27073978000EB187 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2DB06AF127073978000EB187 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2DB06AF427073978000EB187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2DB06AF627073978000EB187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2DB06AF927073978000EB187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DB06AFB27073978000EB187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DB06B01270739C8000EB187 /* ShoppingListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 			children = (
 				2DB06AED27073978000EB187 /* AppDelegate.swift */,
 				2DB06AEF27073978000EB187 /* SceneDelegate.swift */,
-				2DB06AF127073978000EB187 /* ViewController.swift */,
 				2DB06AF327073978000EB187 /* Main.storyboard */,
+				2DB06B01270739C8000EB187 /* ShoppingListTableViewController.swift */,
 				2DB06AF627073978000EB187 /* Assets.xcassets */,
 				2DB06AF827073978000EB187 /* LaunchScreen.storyboard */,
 				2DB06AFB27073978000EB187 /* Info.plist */,
@@ -137,9 +137,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DB06AF227073978000EB187 /* ViewController.swift in Sources */,
 				2DB06AEE27073978000EB187 /* AppDelegate.swift in Sources */,
 				2DB06AF027073978000EB187 /* SceneDelegate.swift in Sources */,
+				2DB06B02270739C8000EB187 /* ShoppingListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
